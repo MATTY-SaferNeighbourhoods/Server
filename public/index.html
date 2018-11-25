@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      input {
+        display: block;
+        height: 36px;
+        font-size: 24px;
+        margin: 5px
+      }
+      </style>
+  </head>
+  <body>
+    <h1>Enter an asset</h1>
+    <form action="/submit" method="post">
+      <input type="text" name="owner" placeholder="owner">
+      <input type="text" name="item" placeholder="item">
+      <input type="text" name="photoURL" placeholder="photoURL">
+
+      <input type="submit">
+      <a href="/ISOs">See your books!</a>
+      <a href="/Assets">See your library!</a>
+    </form>
+  </body>
+</html>
