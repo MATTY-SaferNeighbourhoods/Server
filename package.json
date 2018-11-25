@@ -17,10 +17,5 @@
   "bugs": {
     "url": "https://github.com/MATTY-SaferNeighbourhoods/Server/issues"
   },
-  "homepage": "https://github.com/MATTY-SaferNeighbourhoods/Server#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "mongoose": "^5.3.13"
-  }
+  "homepage": "https://github.com/MATTY-SaferNeighbourhoods/Server#readme"
 }
